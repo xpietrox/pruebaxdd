@@ -1,5 +1,6 @@
-/node_modules/
+node_modules/*
 .env
+claro_request_saved.js
 example_api.js
 package-lock.json
 python_test.py
