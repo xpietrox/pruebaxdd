@@ -33,5 +33,5 @@ app.get('/api/claro/:id', async (req, res) => {
     }
 });
 
-const port = process.env.port || 73
+const port = process.env.port || 9001
 app.listen(port, () => console.log(`API iniciada en el puerto ${port}`));
